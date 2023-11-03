@@ -1,0 +1,37 @@
+h2{
+    color: chocolate;
+    background-color: bisque;
+}
+h1{
+    color: crimson;
+    background-color:darkblue
+}
+p {
+    color:blue;
+    
+}
+.firstdiv{
+    background-color: red;
+}
+
+div { 
+    background-color: black;
+}
+span{
+    background-color:yellow;
+}
+h4{
+    color: white;
+}
+h5{
+    color:white;
+}
+#myparagraph {
+    color:greenyellow;
+}
+.seconddiv{
+    background-color:maroon;
+}
+#secondparagraph {
+    color: red;
+}
