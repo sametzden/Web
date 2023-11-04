@@ -1,0 +1,44 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="style.css">
+    <title>Google</title>
+</head>
+<style>
+    body {
+      background: white;
+      margin: 0;
+    }
+
+    #backgroundImage {
+      border: none;
+      height: 100%;
+      pointer-events: none;
+      position: fixed;
+      top: 0;
+      visibility: hidden;
+      width: 100%;
+    }
+
+    [show-background-image] #backgroundImage {
+      visibility: visible;
+    }
+</style>
+<body>
+    <div id="link">
+        <a href="image.html">Image Search</a>
+    </div>
+            <img src="google.jpg" id="image">
+    <form class="form" action="https://google.com/search">  
+        <input type="text"  name="a" id="searchbar" >
+        <br><br>
+        <input type="submit" value="Google'da Ara">
+        <input type="submit"   name="btn" value="Kendimi Şanslı Hissediyorum">
+    </form> 
+
+    
+    
+    
+</body>
+</html>
